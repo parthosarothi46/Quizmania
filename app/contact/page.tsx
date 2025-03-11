@@ -62,7 +62,7 @@ export default function ContactPage() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="bg-muted/50 py-16 md:py-24">
-          <div className="container">
+          <div className="container mx-auto">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">
                 Contact Us
@@ -77,7 +77,7 @@ export default function ContactPage() {
 
         {/* Contact Form and Info */}
         <section className="py-16 md:py-24">
-          <div className="container">
+          <div className="container mx-auto">
             <div className="grid gap-8 md:grid-cols-2 lg:gap-16">
               {/* Contact Information */}
               <div className="space-y-8">
@@ -221,7 +221,7 @@ export default function ContactPage() {
 
         {/* FAQ Section */}
         <section className="bg-muted/50 py-16 md:py-24">
-          <div className="container">
+          <div className="container mx-auto">
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                 Frequently Asked Questions

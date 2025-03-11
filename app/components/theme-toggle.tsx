@@ -108,7 +108,7 @@ export function ThemeToggle() {
           isAnimating ? "scale-110" : "scale-100"
         } ${
           theme === "dark"
-            ? "right-1 bg-slate-700 text-purple-300"
+            ? "right-1 bg-purple-700 text-purple-200 shadow-[0_0_10px_rgba(139,92,246,0.5)]"
             : "left-1 bg-amber-300 text-amber-800 shadow-lg"
         }`}
       >

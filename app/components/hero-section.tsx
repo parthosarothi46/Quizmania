@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section className="relative overflow-hidden py-20 md:py-32">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-background" />
-      <div className="container relative z-10">
+      <div className="container mx-auto relative z-10">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <div className="flex flex-col justify-center space-y-6">
             <div className="space-y-2">
